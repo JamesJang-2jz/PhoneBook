@@ -36,7 +36,6 @@ public class RemoveTest {
         Assert.assertFalse(phoneBook.hasEntry(name));
     }
 
-
     @Test
     public void test3() {
         // given
