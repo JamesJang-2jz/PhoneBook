@@ -20,14 +20,11 @@ public class AddAllTest {
                 "302-555-2222",
                 "302-555-1111",
         };
-
         // when
         phoneBook.addAll(name, phoneNumbers);
         List<String> actualPhoneNumbers = phoneBook.lookup(name);
         Assert.assertEquals(Arrays.asList(phoneNumbers), actualPhoneNumbers);
     }
-
-
 
     @Test
     public void test2() {
